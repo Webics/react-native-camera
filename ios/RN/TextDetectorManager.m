@@ -1,5 +1,8 @@
 #import "TextDetectorManager.h"
 #if __has_include(<MLKitTextRecognition/MLKitTextRecognition.h>)
+@import MLKitTextRecognition;
+@import MLKitTextRecognitionCommon;
+@import MLCompute;
 @import MLKitVision;
 
 @interface TextDetectorManager ()
